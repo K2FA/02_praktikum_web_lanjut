@@ -20,6 +20,6 @@ Route::get('/about', function () {
     echo "<b> Nim : </b> 2041720075 <br> <b>Nama :</b> Khalid Fadhil Arrafi <br><b>Kelas :</b> TI-2D";
 });
 Route::get('/articles/{id}', function($id){
-    echo "ini merupakan halaman artikel dengan id" . $id;
+    echo "ini merupakan halaman artikel dengan id " . $id;
 });
 
